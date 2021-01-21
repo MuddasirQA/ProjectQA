@@ -7,6 +7,27 @@ public class Calculate {
     int score;
     int total;
 
+    public static void main(String[] args) {
+
+
+    }
+
+
+    public static int sumDigits(int num) {
+
+        int sum;
+
+        /* Single line that calculates sum */
+        for (sum = 0; num > 0; sum += num % 10,
+                num /= 10)
+            ;
+
+        return sum;
+
+
+    }
+
+
     public Calculate(int phys, int bio, int chem) {
 
         this.phys = phys;

@@ -73,7 +73,10 @@ public class Hello {
     }
 
 
+
     public static void main(String[] args) {
+
+
 
 
         Tax newsalary = new Tax();
@@ -100,6 +103,7 @@ public class Hello {
 
     }
 
+    }
 //    public static int add(int a, int b) {
 //        return a + b;
 //    }
@@ -141,6 +145,7 @@ public class Hello {
 //        }
 
 
-}
+
+
 
 
