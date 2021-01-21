@@ -13,10 +13,11 @@ public class Calculate {
         this.bio = bio;
         this.chem = chem;
         this.total = getTotal();
+        this.score = getScore();
 
-
-
-
+        if (this.score < 60) {
+            System.out.println("one or more of your grades was was too low which means overall you have failed");
+        }
 
 
     }
@@ -28,7 +29,8 @@ public class Calculate {
 
 
     }
-    public int getTotal(){
+
+    public int getTotal() {
         return phys + chem + bio;
     }
 
